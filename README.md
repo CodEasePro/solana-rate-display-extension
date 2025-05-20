@@ -1,0 +1,1 @@
+# solana-rate-display-extension
