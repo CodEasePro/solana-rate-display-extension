@@ -1,0 +1,69 @@
+/* Global Resets and Base Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px; /* As per specific width requirement */
+    min-height: 200px; /* Ensure a minimum height for the popup */
+    margin: 0;
+    padding: 25px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EAF2F8; /* Soothing light blue-gray */
+    color: #34495E; /* Dark grayish blue for primary text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 26px; /* Prominent title */
+    color: #2C3E50; /* Darker, strong blue for the title */
+    margin-top: 0;
+    margin-bottom: 30px; /* Space below the title */
+    font-weight: 600;
+}
+
+/* Price Container Styles */
+#price-container {
+    margin-bottom: 15px; /* Space below the price info */
+}
+
+#price-container p {
+    font-size: 1.15rem; /* Approx 18px, readable */
+    color: #34495E; /* Consistent with body text or slightly more emphasis */
+    margin: 0;
+}
+
+#solana-price {
+    font-weight: 700; /* Bold for emphasis */
+    color: #229954; /* Vibrant green for the price value */
+    font-size: 1.5rem; /* Larger for price, approx 24px */
+    margin-left: 8px; /* Space from the label */
+    padding: 3px 8px; /* Slight padding for a subtle highlight effect */
+    background-color: #D4EFDF; /* Very light green background */
+    border-radius: 4px; /* Rounded corners for the highlight */
+}
+
+/* Last Updated Container Styles */
+#last-updated-container {
+    margin-top: 25px; /* More space above this secondary info */
+}
+
+#last-updated-container p {
+    font-size: 0.875rem; /* Smaller for less emphasis, approx 14px */
+    color: #566573; /* Muted color for secondary information */
+    margin: 0;
+}
+
+#timestamp {
+    font-weight: 500; /* Slightly bolder than normal text for the value */
+    color: #566573; /* Consistent with its label */
+    margin-left: 5px; /* Space from the label */
+}

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Solana Price Tracker",
+  "version": "1.0",
+  "description": "Tracks the current price of Solana",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://api.coingecko.com/"
+  ]
+}
